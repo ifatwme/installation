@@ -62,4 +62,4 @@ rm -rf wps-*
 
 echo "install tabby from tabby.sh"
 ## V2RAY A
-sudo snap install v2rayA
+sudo snap install v2raya
