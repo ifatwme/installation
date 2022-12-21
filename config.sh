@@ -10,7 +10,13 @@ sudo apt-get install -y \
     git \
     wget
     
-sudo apt insatll build-essential
+# gcc, g++, make
+sudo apt install build-essential
+# conio.h
+git clone https://github.com/zoelabbb/conio.h.git
+cd conio.h
+sudo make install
+sudo rm -rf ../conio.h
 # MYSQL SERVER     
 #sudo apt install mysql-server
 #sudo mysql_secure_installation
