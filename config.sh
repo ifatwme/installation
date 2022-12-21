@@ -12,11 +12,18 @@ sudo apt-get install -y \
     
 # gcc, g++, make
 sudo apt install build-essential
+gcc --version
 # conio.h
 git clone https://github.com/zoelabbb/conio.h.git
 cd conio.h
 sudo make install
 sudo rm -rf ../conio.h
+# Miniconda, Anaconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+sudo bash Miniconda*
+sudo bash Anaconda*
+conda list
 # MYSQL SERVER     
 #sudo apt install mysql-server
 #sudo mysql_secure_installation
