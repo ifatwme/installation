@@ -7,6 +7,9 @@ sudo bash config.sh
 ```
 Program Names |
 --- |
+Anaconda|
+Miniconda|
+gcc|
 Git |
 Curl |
 Wget|
